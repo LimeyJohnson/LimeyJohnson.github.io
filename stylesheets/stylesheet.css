@@ -102,13 +102,16 @@ header h2 {
 
 #main-content {
   width: 690px;
-  float: left;
+  
 }
 
 #main-content img {
   max-width: 100%;
 }
-
+#disqus_thread {
+  width: 690px;
+  
+}
 aside#sidebar {
   width: 200px;
   padding-left: 20px;

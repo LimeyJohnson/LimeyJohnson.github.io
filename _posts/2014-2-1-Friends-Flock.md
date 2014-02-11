@@ -11,5 +11,6 @@ That magic comes from the following SQL statement
 {% highlight SQL %}
  friendsLimit: SELECT uid1, uid2 from friend WHERE uid1 = USERID ORDER BY uid2 ;
  friendsAll: SELECT uid1, uid2 from friend WHERE uid1 = USERID;
- SELECT uid1, uid2 FROM friend WHERE uid1 IN (SELECT uid2 from #friendsLimit) AND uid2 IN (SELECT uid2 from #friendsAll) AND uid1 < uid2;
+ SELECT uid1, uid2 FROM friend WHERE uid1 IN (SELECT uid2 from #friendsLimit) 
+	AND uid2 IN (SELECT uid2 from #friendsAll) AND uid1 < uid2;
 {% endhighlight %}
