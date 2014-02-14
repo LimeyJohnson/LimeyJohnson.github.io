@@ -15,7 +15,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -26,6 +26,10 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+}
+#sidebar{
+	float: right;
+	width: 200px;
 }
 body {
 	line-height: 1;
@@ -102,7 +106,7 @@ header h2 {
 
 #main-content {
   width: 690px;
-  
+  float:left;
 }
 
 #main-content img {
@@ -110,7 +114,7 @@ header h2 {
 }
 #disqus_thread {
   width: 690px;
-  
+  float:left;
 }
 aside#sidebar {
   width: 200px;

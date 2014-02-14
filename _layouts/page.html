@@ -20,21 +20,41 @@
     <header>
       <div class="inner">
         <a href="{{ site.url }}"><h1>Limey Blog</h1></a>
-        <a href="https://github.com/LimeyJohnson/blogtest" class="button"><small>View project on</small>GitHub</a>
+        <a href="https://github.com/LimeyJohnson/LimeyJohnson.github.io" class="button"><small>View project on</small>GitHub</a>
       </div>
     </header>
-
-    <div id="content-wrapper">
+	<div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
          {{ content }} 
         </section>
-          {% if page.comments %}
+          
+		  <aside id="sidebar">
+          SideBar Content
+      
+		This is the sidebar content
+		This is the sidebar content
+		This is the sidebar content-wrapperThis is the sidebar content
+		This is the sidebar content-wrapperThis is the sidebar content
+		This is the sidebar content
+		This is the sidebar content
+		This is the sidebar content
+		This is the sidebar content
+		This is the sidebar content
+		This is the sidebar content
+		This is the sidebar content
+		This is the sidebar content
+		This is the sidebar content
+		This is the sidebar content
+		This is the sidebar content
+		This is the sidebar content
+	</aside>
+	{% if page.comments %}
           {% include comments.html %}
           {% endif %}
         </div>
+		
     </div>
-
-  
+	
   </body>
 </html>
