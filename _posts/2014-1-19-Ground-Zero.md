@@ -1,7 +1,7 @@
 ---
 title: Ground Zero
 layout: post
-comments: true
+comments: false
 ---
 
 The is the beginning of the blog.
