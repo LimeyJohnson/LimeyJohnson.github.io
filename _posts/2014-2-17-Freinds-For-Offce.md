@@ -11,11 +11,11 @@ comments: false
 Apps for Office can be inserted from the Office store or from a private App Catalog in a sharepoint site. App Catalog, or Apps for Office are the way Microsoft sees programability and extensibility in office moving forward. 
 
 Friends For Office is an App for Excel availible in the office store that will import and interact with your friends list in excel. To use it you simply need to click the Apps for Office button in the insert tab in Excel. 
-![Apps for Office Buggon]({{site.url}}/images/AppsForOfficeButton.png)  
+![Apps for Office Buggon]({{site.url}}/images/AppsForOfficeButton.PNG)  
 
 and select Friends in Office.  
 
-![Friends For Office Icon]({{site.url}}/images/friendsinofficeicon.png)
+![Friends For Office Icon]({{site.url}}/images/friendsinofficeicon.PNG)
 
 This will insert the app into your workbook. After you sign in you can import your friends list by clicking insert friends.
 ![Friends For Office]({{site.url}}/images/friendsinoffice.png)  
