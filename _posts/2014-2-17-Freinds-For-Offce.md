@@ -3,8 +3,8 @@ title: Friends For Office
 layout: post
 comments: false
 ---
-[Friends For Office](http://office.microsoft.com/en-us/store/friends-for-office-WA104092366.aspx) is an App for Office targeted at the Excel and Access platform that enables users to import their friends list from facebook. 
-
+[Friends For Office](http://office.microsoft.com/en-us/store/friends-for-office-WA104092366.aspx) is an App for Office targeted at the Excel and Access platform that enables users to import their friends list from Facebook. 
+<!-- more -->
 
 [Apps for Office](http://msdn.microsoft.com/en-US/office/dn448457) were integrated into the Office 2013 versions of Excel, Word and Outlook as a new extensibility mechanism. They are built as webpages using HTML/JS/CSS that are rendered inside both the client versions of the office programs and their web based counterparts. These apps can interact with their host through a defined set of common javascript APIs. Though these APIs Apps can get and set data from their host application as well as listen for events the user is taking against the host application. 
 
