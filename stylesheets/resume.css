@@ -19,6 +19,8 @@
     border-right-width:2px;
     text-align: right;
     padding-right: 10px;
+    font-size:17px;
+    font-weight:bold;
 }
 .noborder{
     border-right-width:0;
@@ -37,19 +39,6 @@
     padding-left: 10px;
 }
 
-.col1 {
-    float: left;
-    width: 241px;
-    margin-right: 0px;
-     padding-left: 10px;
-}
-
-.col2 {
-    float: left;
-    width: 200px;
-    margin-right: 0px;
-}
-
 .section {
     margin-top: 30px;
     clear: both;
@@ -57,13 +46,15 @@
     height:auto;
 }
 
-
+a{
+    text-decoration:none;
+}
 h1 {
-    font-size: 23px;
-    margin: -4px 0 0 0;
+    font-size: 17px;
+    margin: -0 0 0.02em 0;
 }
 
 h2 {
-    font-size: 17px;
-    margin: 4px 0 0 0;
+    font-size: 15px;
+    margin: 0 0 0 0;
 }
