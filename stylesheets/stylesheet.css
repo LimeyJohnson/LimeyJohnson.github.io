@@ -348,29 +348,37 @@ dl dd {
 }
 
 footer {
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  //background: transparent url('../images/highlight-bg.jpg') 0 0 no-repeat;
   margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 30px;
   font-size: 13px;
   color: #aaa;
+  text-align: center;
+   border-top-style: solid;
+border-top-width: 2px;
 }
-
+#footercontent{
+    margin-top:40px;
+}
 footer a {
-  color: #666;
-}
-footer a:hover {
-  color: #444;
-}
+      color: #666;
+    }
+    footer a:hover {
+      color: #444;
+    }
+    footer img {
+    
+    }
 
-/* MISC */
-.clearfix:after {
-  clear: both;
-  content: '.';
-  display: block;
-  visibility: hidden;
-  height: 0;
-}
+    /* MISC */
+    .clearfix:after {
+      clear: both;
+      content: '.';
+      display: block;
+      visibility: hidden;
+      height: 0;
+    }
 
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}

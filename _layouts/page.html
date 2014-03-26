@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -8,39 +8,40 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_friendly.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
-
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <title>{{ page.title }}</title>
-  </head>
-
-  <body>
+</head>
+<body>
     <header>
-      <div class="inner">
-        <a href="{{ site.url }}"><h1>Limey Blog</h1></a>
-        <a href="https://github.com/LimeyJohnson/LimeyJohnson.github.io" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
-	<div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-         {{ content }} 
-        </section>
-          
-		<aside id="sidebar">
-			<img src="{{ site.url }}/images/AndrewJohnson.jpg" alt="Andrew Johnson" width="350" height="219">
-			I am a software developer with a passion for building products. I am currently working revolutionizing Microsoft Access. <br/>
-In my free time I enjoy working on a wide array of projects chronicled in this blog
-<a href="{{ site.url }}/resume">Resume</a>		
-		</aside>
-	{% if page.comments %}
-          {% include comments.html %}
-          {% endif %}
+        <div class="inner">
+            <a href="{{ site.url }}"><h1>Limey Blog</h1></a>
+            <a href="https://github.com/LimeyJohnson/LimeyJohnson.github.io" class="button"><small>View project on</small>GitHub</a>
         </div>
-		
+    </header>
+    <div id="content-wrapper">
+        <div class="inner clearfix">
+            <section id="main-content">
+                {{ content }}
+            </section>
+
+            <aside id="sidebar">
+                Aside content
+            </aside>
+            {% if page.comments %}
+            {% include comments.html %}
+            {% endif %}
+            
+        </div>
+        <footer class="inner" id="footercontent">
+            <img src="{{ site.url }}/images/AndrewJohnson.jpg" alt="Andrew Johnson" width="350" height="219"><br/>
+            I am a software developer with a passion for building products. I am currently working revolutionizing Microsoft Access. <br />
+            In my free time I enjoy working on a wide array of projects chronicled in this blog<br />
+            <a href="{{ site.url }}/resume">Resume</a>
+        </footer>
+
     </div>
-	
-  </body>
+
+</body>
 </html>
