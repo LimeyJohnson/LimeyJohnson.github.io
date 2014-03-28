@@ -2,6 +2,7 @@
 title: Social Network
 layout: post
 comments: false
+category: socialnetwork
 ---
 [Social Network](http://SocialNetwork.LimeyJohnson.net) is a way to visualize your social network. --INSERT SCREEN SHOT--. Initially it start out as a project to learn some cool new technologies like [Script#](http://scriptsharp.com), [D3.js](http://d3js.org) and the [FB Api](http://developer.facebook.com) but now it has grown to a full blown project. 
 <!-- more -->

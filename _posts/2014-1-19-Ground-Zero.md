@@ -2,6 +2,7 @@
 title: Ground Zero
 layout: post
 comments: false
+category: general
 ---
 
 The is the beginning of the blog.

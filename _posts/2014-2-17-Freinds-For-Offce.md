@@ -2,6 +2,7 @@
 title: Friends For Office
 layout: post
 comments: false
+category: ffo
 ---
 [Friends For Office](http://office.microsoft.com/en-us/store/friends-for-office-WA104092366.aspx) is an App for Office targeted at the Excel and Access platform that enables users to import their friends list from Facebook. 
 <!-- more -->

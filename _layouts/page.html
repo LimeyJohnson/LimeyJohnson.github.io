@@ -27,7 +27,43 @@
             </section>
 
             <aside id="sidebar">
-                Aside content
+                Other Posts
+                <ul>
+                    <li>
+                        Todo Application
+                        <ul>
+                            {% for post in site.categories.todo %}
+                            <li><a href="{{ post.url }}"> {{ post.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+
+                    </li>
+                    <li>
+                        Friends for Office
+                        <ul>
+                            {% for post in site.categories.ffo %}
+                            <li><a href="{{ post.url }}"> {{ post.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+
+                    </li>
+                    <li>
+                        Social Network
+                        <ul>
+                            {% for post in site.categories.socialnetwork %}
+                            <li><a href="{{ post.url }}"> {{ post.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                   </li>
+                    <li>
+                        General
+                        <ul>
+                            {% for post in site.categories.general %}
+                            <li><a href="{{ post.url }}"> {{ post.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                </ul>
             </aside>
             {% if page.comments %}
             {% include comments.html %}
