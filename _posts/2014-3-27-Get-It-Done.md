@@ -1,8 +1,8 @@
 ---
-title: ToDo Anywhere
+title: Get It Done
 layout: post
 comments: false
-category: todo
+category: getitdone
 ---
 ToDo applications seem like the easiest apps to write but I still haven't found one that works for me. The fundamental problem with most I have tried is that they focus on the actual todo list and not on helping its users accomplish their tasks. <!-- more --> On top of that they don't focus on improving the user's management of tasks. They think all that is needed in a list with one view. They don't take into account any of the new thinking in process engineering. Ideas like limiting work in progress, providing feedback for process improvements, or only showing the user what they need to see at that particular point in time. 
 
