@@ -1,4 +1,4 @@
 excerpt_separator: "<!-- more -->"
 permalink: /:title.html
-url: http://www.LimeyJohnson.net
+url: http://LimeyJohnson.com
 markdown: kramdown
