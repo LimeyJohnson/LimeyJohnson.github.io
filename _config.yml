@@ -2,3 +2,9 @@ excerpt_separator: "<!-- more -->"
 permalink: /:title.html
 url: http://LimeyJohnson.com
 markdown: kramdown
+
+title: LimeyJohnson's Blog
+description: Andrew Johnson's Blog
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-slate
